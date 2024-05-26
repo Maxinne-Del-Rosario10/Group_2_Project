@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAKING FREE - 4th Quarter Project</title>
+    <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div id="logo"></div>
+    </header>
+    <div class="content">
+        <div class="slogan">
+            <h1>CUT THE <br> HYPE, <br> SIP THE <br> REALITY</h1>
+            <p id="subslogan">Cut the Alcohol Romantization Now!</p>
+        </div>
+
+        <div class="dropdowns">
+            <div id="whole_sign-up" class="sign-up">
+                <button class="noborderbutton" onclick="signupfunction()" id="signup">Sign Up <i id="signup-triangle" class="triangle-down"></i></button>
+                <form id="signupform" onsubmit="return signupformsubmitfunction()">
+                    <input id="name_signup" type="text" value="Name"><br>
+                    <input id="email_signup" type="text" value="Email Address"><br>
+                    <input id="address_signup" type="text" value="Home Address"><br>
+                    <input id="age_signup" type="text" value="Age">
+                    <input id="contact_signup" type="text" value="Contact No."><br>
+                    <input id="username_signup" type="text" value="Username"><br>
+                    <input id="createpassword_signup" type="text" value="Create Password"><br>
+                    <input id="confirmpassword_signup" type="text" value="Confirm Password"><br>
+
+                    <div id="other-signin">
+                        <p>Or, continue with:</p><br>
+                        <div id="container1" class="container">
+                            <div class="google_img"></div>
+                            <p class="other-signin_name">google.com</p>
+                        </div>
+                        <div id="container2" class="container">
+                            <div class="facebook_img"></div>
+                            <p class="other-signin_name">facebook.com</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitbutton_signup">SIGN UP NOW!</button>
+                </form>
+            </div>
+
+            <br>
+
+            <div id="whole_log-in" class="log-in">
+                <button class="noborderbutton" onclick="loginfunction()" id="login">Log In <i id="login-triangle" class="triangle-down"></i></button>
+
+                <form id="loginform" onsubmit="return loginformsubmitfunction()">
+                    <input id="username_login" type="text" value="Username"><br>
+                    <input id="password_login" type="text" value="Password"><br>
+
+                    <div id="other-login">
+                        <p>Or, continue with:</p><br>
+                        <div id="container3" class="container">
+                            <div class="google_img"></div>
+                            <p class="other-signin_name">google.com</p>
+                        </div>
+                        <div id="container4" class="container">
+                            <div class="facebook_img"></div>
+                            <p class="other-signin_name">facebook.com</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitbutton_login">LOG IN NOW!</button>
+                </form>
+            </div>
+
+            <br>
+
+            <div class="learn-more">
+                <button class="noborderbutton" onclick="learnmorefunction()" id="learnmore">Learn More <i id="learnmore-triangle" class="triangle-down"></i></button>
+
+                <div id="other-learn-more">
+                    <p>Alcohol consumption is often glamorized in mainstream media, portrayed as a gateway to fun, relaxation, and social acceptance. However, this depiction can be dangerously misleading, especially for impressionable youth. Our advocacy focuses on raising awareness about the negative impacts of alcohol use, particularly among young people. We aim to highlight the health risks, potential for addiction, and the long-term consequences that alcohol can have on lives. By challenging the glorified image of alcohol in media, we strive to promote healthier, more informed choices for future generations. Explore our resources to learn more about the reality of alcohol consumption and how we can make a difference together.</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="about-us">
+                <button class="noborderbutton" onclick="aboutusfunction()" id="aboutus">About Us <i id="aboutus-triangle" class="triangle-down"></i></button>
+                <div id="other-about-us">
+                    <p>We are a dedicated group of individuals committed to reducing the portrayal of alcohol as a positive influence in mainstream media. Our mission is to protect the youth from the harmful effects of alcohol by advocating for more responsible media representations. We believe that by educating the public and promoting honest conversations about alcohol, we can help prevent addiction and promote healthier lifestyles. Join us in our efforts to create a society where young people can make informed decisions free from the undue influence of glamorized alcohol use. Together, we can make a change.</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="contact-us">
+                <button class="noborderbutton" onclick="contactusfunction()" id="contactus">Contact Us <i id="contactus-triangle" class="triangle-down"></i></button>
+                <div id="other-contact-us">
+                    <div id="container5" class="container">
+                        <div class="google_img"></div>
+                        <p class="other-signin_name">google.com</p>
+                    </div>
+                    <div id="container6" class="container">
+                        <div class="facebook_img"></div>
+                        <p class="other-signin_name">facebook.com</p>
+                    </div>
+                    <div id="container7" class="container">
+                        <div class="instagram_img"></div>
+                        <p class="other-signin_name">instagram.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
